@@ -17,14 +17,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/everdrone/react-native-squircle-view"
+    "url": "https://github.com/holgersindbaek/react-native-squircle-view"
   },
-  "author": "everdrone",
+  "author": "holgersindbaek",
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.60.0"
   }
 }
