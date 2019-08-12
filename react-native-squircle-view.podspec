@@ -1,7 +1,7 @@
 require "json"
 
-json = File.read(File.join(__dir__, "../package.json"))
-package = JSON.parse(json, symbolize_names: true)
+json = File.read(File.join(__dir__, "package.json"))
+package = JSON.parse(json).deep_symbolize_keys
 
 Pod::Spec.new do |s|
   s.name         = package[:name]
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = package[:repository][:url]
   s.license      = package[:license]
   s.author       = { "author" => package[:author] }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
   s.source       = { git: package[:repository][:url], tag: 'master' }
   s.source_files  = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
