@@ -34,13 +34,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#333437',
     borderRadius: 100,
-    shadowColor: '#050031',
-    shadowOpacity: 0.15,
-    shadowOffset: {
-      width: 0,
-      height: 10,
-    },
-    shadowRadius: 8,
+    borderWidth: 1,
+    borderColor: "red"
   },
   squircle2: {
     width: 225,

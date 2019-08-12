@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.60.0",
-    "react-native-squircle-view": "holgersindbaek/react-native-squircle-view#master"
+    "react-native-squircle-view": "github:holgersindbaek/react-native-squircle-view#master"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
